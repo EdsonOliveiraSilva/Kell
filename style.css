@@ -12,7 +12,7 @@ html, body {
 }
 
 .divBlack {    
-    background-color: #F25C05;
+    background-color: #f7f7f7;
     padding-bottom: 15px;
 }
 
@@ -24,12 +24,12 @@ html, body {
 #divSessaoVideo h1 {
     font-weight: 800;
     font-size: 42px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
 #divSessaoVideo p {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -88,21 +88,29 @@ li {
     margin-right: auto;
 }
 
+#divCasaSolar h2{
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
 
 #divSessaoOqueE {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
     #divSessaoOqueE h2 {
         font-weight: 800;
         font-size: 32px;
-        color: #fcfcfc;
+        color: #000000;
         text-align: center;
     }  
 
     #divSessaoOqueE strong{
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
 #imgAprender {
@@ -131,6 +139,26 @@ li {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
+#divAoVivo h2 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+
+#divAoVivo p {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#divAoVivo i {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
 
 #divSessaoNaoPodePerder h2 {
     font-weight: 800;
@@ -194,8 +222,8 @@ li {
 }
 
 .img7 {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     object-fit: none;
     display: block;
     margin-left: auto;
