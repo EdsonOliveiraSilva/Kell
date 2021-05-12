@@ -3,7 +3,8 @@
     width: device-width;
 }
 
-html, body {
+html,
+body {
     font-family: "Opens Sans";
     font-size: 23px;
     margin: none;
@@ -11,13 +12,13 @@ html, body {
     border: none;
 }
 
-.divBlack {    
+.divWhite {
     background-color: #f7f7f7;
     padding-bottom: 15px;
 }
 
-.divGray {
-    background-color: #83A603 ;
+.divGreen {
+    background-color: #83A603;
     padding-bottom: 15px;
 }
 
@@ -43,12 +44,12 @@ html, body {
     box-shadow: 0px 0px 10px 4px rgb(255 255 255 / 48%);
 }
 
-    .btn-danger:hover {
-        background-color: #d41010;
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
-    }
+.btn-danger:hover {
+    background-color: #d41010;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
 
 
 
@@ -67,7 +68,7 @@ html, body {
     padding-left: 0px;
 }
 
-li {
+.li {
     padding-bottom: 15px;
 }
 
@@ -88,54 +89,38 @@ li {
     margin-right: auto;
 }
 
-#divCasaSolar h2{
-    padding-top: 15px;
-    font-weight: 800;
-    font-size: 32px;
-    text-align: center;
-    color: rgb(0, 0, 0);
 
-}
-
-#divSessaoOqueE {
+#divRedesSociais {
     color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
-    #divSessaoOqueE h2 {
-        font-weight: 800;
-        font-size: 32px;
-        color: #000000;
-        text-align: center;
-    }  
-
-    #divSessaoOqueE strong{
-        color: rgb(0, 0, 0);
-    }
-
-#imgAprender {
-    object-fit: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+#divRedesSociais h2 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
 }
 
+#divRedesSociais strong {
+    color: rgb(0, 0, 0);
+}
 
-#divSessaoBonus h2 {
+#divMeet h2 {
     font-weight: 800;
     font-size: 32px;
     color: #ffffff;
     text-align: center;
 }
 
-#divSessaoBonus p {
+#divMeet p {
     color: white;
     font-size: 32px;
     padding-bottom: 5px;
     text-align: center;
 }
 
-#divSessaoBonus i {
+#divMeet i {
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -159,130 +144,41 @@ li {
     text-align: center;
 }
 
-
-#divSessaoNaoPodePerder h2 {
-    font-weight: 800;
-    font-size: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-#divSessaoNaoPodePerder h4 {
-    color: white;
-}
-
-#divSessaoNaoPodePerder s {
-    color: #FF0E20;
-}
-
-.valorAtual {
-    font-weight: 800;
-    font-size: 52px;
-    color: #C0A63C;
-    text-align: center;
-}
-#divSessaoNaoPodePerder p {
-    color: white;
-    font-size: 18px;
-    margin: 0;
-    text-align: center;
-}
-
-#divSessaoDepoimentos h2 {
-    font-weight: 800;
-    font-size: 32px;
-    color: #C0A63C;
-    text-align: center;
-}
-
-#divSessaoDepoimentos p {
-    color: white;
-    font-size: 18px;
-    margin: 0;
-    text-align: justify;
-}
-
-#divSessaoGarantia h2 {
-    font-weight: 800;
-    font-size: 32px;
-    color: #C0A63C;
-    text-align: center;
-}
-
-#divSessaoGarantia p {
-    color: white;
-    font-size: 18px;
-    margin: 0;
-    text-align: center;
-}
-
-#divSessaoFinal p {
+#divCasaSolar h2 {
     padding-top: 15px;
-    color: white;
-}
-
-.img7 {
-    width: 300px;
-    height: 300px;
-    object-fit: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.padding55 {
-    padding-bottom: 55px;
-}
-
-.padding35 {
-    padding-bottom: 35px;
-}
-
-.padding15 {
-    padding-bottom: 15px;
-}
-
-.card {
-    border-style: solid;
-    border-color: #C0A63C;
-    background-color: white;
-    border-radius: 30px 15px;
-}
-
-.card p {
-    color: rgb(0, 0, 0) !important;
-    padding: 10px;
-}
-
-ul#example {
-    list-style: none;
-    padding: 0;
-    display: block;
+    font-weight: 800;
+    font-size: 32px;
     text-align: center;
-  }
-  
-  ul#example li { display: inline-block; }
-  
-  ul#example li span {
-    font-size: 80px;
-    font-weight: 300;
-    line-height: 80px;
-    color: #C0A63C;
-  }
-  
-  ul#example li.seperator {
-    font-size: 80px;
-    line-height: 70px;
-    vertical-align: top;
-  }
-  
-  ul#example li p {
-    color: #C0A63C;
-    font-size: 25px;
-  }
+    color: rgb(0, 0, 0);
 
-  strong {
-      color: #C0A63C;
-  }
+}
+
+#divCaradapio p,
+h3 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+}
 
 
+#divCaradapio h2 {
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+}
+
+#divCaradapio ul {
+    color: white;
+    font-size: 18px;
+    margin: 10;
+    list-style-type: none;
+    padding-left: 210px;
+}
+
+footer {
+   
+    font-weight: 800;
+    font-size: 15px;
+}
